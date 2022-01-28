@@ -17,6 +17,9 @@ a:visited {
 
 a:hover {
   color: #227115;
+  font-size: 1em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 li {
@@ -95,6 +98,33 @@ aside {
 #galeria img {
   margin-left: 2px;
   margin-top: 3px;
+}
+
+#principal article {
+  margin-left: 25px;
+  width: 310px;
+  height: 230px;
+}
+
+#principal .conteudos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#principal .conteudos ul {
+  padding: 0;
+}
+
+#expo a:hover {
+  margin: 0;
+  text-transform: none;
+  color: #af670a;
+}
+
+h3 {
+  color: #227115;
 }
 
 h4 {
