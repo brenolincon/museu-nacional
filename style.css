@@ -41,6 +41,12 @@ li {
 header {
   padding: 15px 0;
   height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  width: 900px;
 }
 
 nav ul {
@@ -53,4 +59,87 @@ nav ul {
 
 nav ul li a:hover {
   border-bottom: 1px solid #535858;
+}
+
+#conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#principal {
+  width: 710px;
+}
+
+aside {
+  width: 350px;
+  background-color: #ebe7dd;
+  padding-bottom: 30px;
+}
+
+#visita {
+  background: #cdc8b1;
+  padding: 10px 27px 27px 27px;
+  margin-top: 10px;
+}
+
+#galeria {
+  padding: 0 27px 0 27px;
+}
+
+#galeria a {
+  display: block;
+  background: url(./img/fundo-foto.png) no-repeat;
+  padding: 17px 15px 17px 15px;
+}
+
+#galeria img {
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+h4 {
+  color: #86521a;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 80px;
+  background-color: #fff;
+  font-size: 1em;
+}
+
+input#data {
+  border: 1px solid #ada484;
+}
+
+input#qtd {
+  width: 30px;
+  border: 1px solid #ada484;
+}
+
+input.botao {
+  background-color: #9b9271;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  font-size: 1.2em;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+#fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
